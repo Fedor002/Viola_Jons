@@ -1,7 +1,7 @@
 import cv2
 
 #Считывание фотографии
-img_rgb = cv2.imread('Group.jpg')
+img_rgb = cv2.imread('Stock/Stock5.jpg')
 #Перекидываю код метода в объект
 face_casd = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
